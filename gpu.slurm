@@ -8,4 +8,4 @@ module load slurm/20.02.7
 module use module use /cm/shared/ex3-qc-modules/modulefiles
 module load quito/quito-py311-cu118-1.0
 export PYTHONPATH=root_path:$PYTHONPATH
-python /home/xinyi/quito_cpu/quito_test.py
+python /home/xinyi/quito_gpu/quito_test.py
